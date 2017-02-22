@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: JFM_Lam_draft_Feb2017_v5.aux
+The style file: jfm.bst
+Database file #1: biblio_lam.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty journal in willmarth1964steady
+You've used 30 entries,
+            3068 wiz_defined-function locations,
+            869 strings with 10320 characters,
+and the built_in function-call counts, 16433 in all, are:
+= -- 1452
+> -- 780
+< -- 11
++ -- 305
+- -- 270
+* -- 1790
+:= -- 2742
+add.period$ -- 63
+call.type$ -- 30
+change.case$ -- 244
+chr.to.int$ -- 29
+cite$ -- 31
+duplicate$ -- 860
+empty$ -- 1323
+format.name$ -- 306
+if$ -- 3209
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 32
+newline$ -- 95
+num.names$ -- 120
+pop$ -- 234
+preamble$ -- 1
+purify$ -- 208
+quote$ -- 0
+skip$ -- 385
+stack$ -- 0
+substring$ -- 859
+swap$ -- 320
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 264
+warning$ -- 1
+while$ -- 134
+width$ -- 0
+write$ -- 331
+(There was 1 warning)

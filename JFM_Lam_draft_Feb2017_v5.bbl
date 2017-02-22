@@ -1,0 +1,180 @@
+\begin{thebibliography}{30}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\def\au#1{#1} \def\ed#1{#1} \def\yr#1{#1}\def\at#1{#1}\def\jt#1{\textit{#1}}
+  \def\bt#1{#1}\def\bvol#1{\textbf{#1}} \def\vol#1{#1} \def\pg#1{#1}
+  \def\publ#1{#1}\def\arxiv#1{#1}\def\org#1{#1}\def\st#1{\textit{#1}}
+
+\bibitem[Andersen {\em et~al.\/}(2005{\natexlab{{\em a\/}}})Andersen, Pesavento
+  \& Wang]{andersen2005analysis}
+{\sc \au{Andersen, Anders}, \au{Pesavento, Umberto} \& \au{Wang, Z~Jane}}
+  \yr{2005{\natexlab{{\em a\/}}}}  \at{Analysis of transitions between
+  fluttering, tumbling and steady descent of falling cards}.  \jt{Journal of
+  Fluid Mechanics}  \bvol{541},  \pg{91--104}.
+
+\bibitem[Andersen {\em et~al.\/}(2005{\natexlab{{\em b\/}}})Andersen, Pesavento
+  \& Wang]{andersen2005unsteady}
+{\sc \au{Andersen, A}, \au{Pesavento, U} \& \au{Wang, Z~Jane}}
+  \yr{2005{\natexlab{{\em b\/}}}}  \at{Unsteady aerodynamics of fluttering and
+  tumbling plates}.  \jt{Journal of Fluid Mechanics}  \bvol{541},  \pg{65--90}.
+
+\bibitem[Auguste {\em et~al.\/}(2013)Auguste, Magnaudet \&
+  Fabre]{auguste2013falling}
+{\sc \au{Auguste, Franck}, \au{Magnaudet, Jacques} \& \au{Fabre, David}}
+  \yr{2013}  \at{Falling styles of disks}.  \jt{Journal of Fluid Mechanics}
+  \bvol{719},  \pg{388--405}.
+
+\bibitem[Awotahegn {\em et~al.\/}(2016)Awotahegn, Oosterkamp, Nystr{\o}m {\em
+  et~al.\/}]{awotahegn20163d}
+{\sc \au{Awotahegn, Michael~Berhe}, \au{Oosterkamp, Ljiljana~Djapic},
+  \au{Nystr{\o}m, Per~Richard} \& \au{others}} \yr{2016} 3d study of dropped
+  object motion in sea water based on scale test.  \bt{In {\em The 26th
+  International Ocean and Polar Engineering Conference\/}}. International
+  Society of Offshore and Polar Engineers.
+
+\bibitem[Belmonte {\em et~al.\/}(1998)Belmonte, Eisenberg \&
+  Moses]{belmonte1998flutter}
+{\sc \au{Belmonte, Andrew}, \au{Eisenberg, Hagai} \& \au{Moses, Elisha}}
+  \yr{1998}  \at{From flutter to tumble: inertial drag and froude similarity in
+  falling paper}.  \jt{Physical Review Letters}  \bvol{81}~(2),  \pg{345}.
+
+\bibitem[Chrust {\em et~al.\/}(2013)Chrust, Bouchet \& Dušek]{chrust2013}
+{\sc \au{Chrust, Marcin}, \au{Bouchet, Gilles} \& \au{Dušek, Jan}} \yr{2013}
+  \at{Numerical simulation of the dynamics of freely falling discs}.
+  \jt{Physics of Fluids}  \bvol{25}~(4).
+
+\bibitem[Ern {\em et~al.\/}(2012)Ern, Risso, Fabre \& Magnaudet]{ern2012wake}
+{\sc \au{Ern, Patricia}, \au{Risso, Fr{\'e}d{\'e}ric}, \au{Fabre, David} \&
+  \au{Magnaudet, Jacques}} \yr{2012}  \at{Wake-induced oscillatory paths of
+  bodies freely rising or falling in fluids}.  \jt{Annual Review of Fluid
+  Mechanics}  \bvol{44},  \pg{97--121}.
+
+\bibitem[Field {\em et~al.\/}(1997)Field, Klaus, Moore \& Nori]{field1997}
+{\sc \au{Field, Stuart~B}, \au{Klaus, M}, \au{Moore, MG} \& \au{Nori, Franco}}
+  \yr{1997}  \at{Chaotic dynamics of falling disks}.  \jt{Nature}
+  \bvol{388}~(6639),  \pg{252--254}.
+
+\bibitem[Fortuin(1960)]{fortuin}
+{\sc \au{Fortuin, JMH}} \yr{1960}  \at{Theory and application of two
+  supplementary methods of constructing density gradient columns}.  \jt{Journal
+  of Polymer Science}  \bvol{44}~(144),  \pg{505--515}.
+
+\bibitem[Heisinger {\em et~al.\/}(2014)Heisinger, Newton \& Kanso]{luke2014}
+{\sc \au{Heisinger, Luke}, \au{Newton, Paul} \& \au{Kanso, Eva}} \yr{2014}
+  \at{Coins falling in water}.  \jt{Journal of Fluid Mechanics}  \bvol{742},
+  \pg{243--253}.
+
+\bibitem[Hill(2002)]{hill2002general}
+{\sc \au{Hill, DF}} \yr{2002}  \at{General density gradients in general
+  domains: the “two-tank” method revisited}.  \jt{Experiments in fluids}
+  \bvol{32}~(4),  \pg{434--440}.
+
+\bibitem[Ivey(2004)]{ivey2004strat}
+{\sc \au{Ivey, GN}} \yr{2004}  \at{Stratification and mixing in sea straits}.
+  \jt{Deep Sea Research Part II: Topical Studies in Oceanography}
+  \bvol{51}~(4),  \pg{441--453}.
+
+\bibitem[Jin \& Xu(2008)]{jin2008numerical}
+{\sc \au{Jin, Changqiu} \& \au{Xu, Kun}} \yr{2008}  \at{Numerical study of the
+  unsteady aerodynamics of freely falling plates}.  \jt{Comm. Comp. Phys}
+  \bvol{3},  \pg{834--851}.
+
+\bibitem[Kuznetsov(2015)]{kuznetsov2015plate}
+{\sc \au{Kuznetsov, Sergey~P}} \yr{2015}  \at{Plate falling in a fluid: Regular
+  and chaotic dynamics of finite-dimensional models}.  \jt{Regular and Chaotic
+  Dynamics}  \bvol{20}~(3),  \pg{345--382}.
+
+\bibitem[Lee {\em et~al.\/}(2013)Lee, Su, Zhong, Chen, Zhou \&
+  Wu]{lee2013experimental}
+{\sc \au{Lee, Cunbiao}, \au{Su, Zhuang}, \au{Zhong, Hongjie}, \au{Chen, Shiyi},
+  \au{Zhou, Mingde} \& \au{Wu, Jiezhi}} \yr{2013}  \at{Experimental
+  investigation of freely falling thin disks. part 2. transition of
+  three-dimensional motion from zigzag to spiral}.  \jt{Journal of Fluid
+  Mechanics}  \bvol{732},  \pg{77--104}.
+
+\bibitem[MacIntyre {\em et~al.\/}(2014)MacIntyre, Romero, Silsbe \&
+  Emery]{macintyre2014strat}
+{\sc \au{MacIntyre, Sally}, \au{Romero, Jos{\'e}~R}, \au{Silsbe, Gregory~M} \&
+  \au{Emery, Brian~M}} \yr{2014}  \at{Stratification and horizontal exchange in
+  lake victoria, east africa}.  \jt{Limnology and Oceanography}  \bvol{59}~(6),
+   \pg{1805--1838}.
+
+\bibitem[Majed {\em et~al.\/}(2013)Majed, Cooper {\em et~al.\/}]{majed2013high}
+{\sc \au{Majed, Arya}, \au{Cooper, Phil} \& \au{others}} \yr{2013} High
+  fidelity sink trajectory nonlinear simulations for dropped subsea objects.
+  \bt{In {\em The Twenty-third International Offshore and Polar Engineering
+  Conference\/}}. International Society of Offshore and Polar Engineers.
+
+\bibitem[Maxwell(1990)]{maxwell}
+{\sc \au{Maxwell, James~Clerk}} \yr{1990} {\em The Scientific Letters and
+  Papers of James Clerk Maxwell: 1846-1862\/}.  \publ{CUP Archive}.
+
+\bibitem[Oster(1965)]{oster1965density}
+{\sc \au{Oster, Gerald}} \yr{1965}  \at{Density gradients}.  \jt{Scientific
+  American}  \bvol{213},  \pg{70--76}.
+
+\bibitem[Pesavento \& Wang(2004)]{pesavento2004falling}
+{\sc \au{Pesavento, Umberto} \& \au{Wang, Z~Jane}} \yr{2004}  \at{Falling
+  paper: Navier-stokes solutions, model of fluid forces, and center of mass
+  elevation}.  \jt{Physical review letters}  \bvol{93}~(14),  \pg{144501}.
+
+\bibitem[Pounds {\em et~al.\/}(2016)Pounds, Potie, Kendoul, Singh, Jurdak \&
+  Roberts]{pounds2016automatic}
+{\sc \au{Pounds, Paul}, \au{Potie, Timothy}, \au{Kendoul, Farid}, \au{Singh,
+  Surya}, \au{Jurdak, Raja} \& \au{Roberts, Jonathan}} \yr{2016} Automatic
+  distribution of disposable self-deploying sensor modules.  \bt{In {\em
+  Experimental Robotics\/}},  \pg{pp. 535--543}. Springer.
+
+\bibitem[Stringham {\em et~al.\/}(1969)Stringham, Simons \& Guy]{stringham1969}
+{\sc \au{Stringham, GE}, \au{Simons, Daryl~B} \& \au{Guy, Harold~P}} \yr{1969}
+  {\em The behavior of large particles falling in quiescent liquids\/}.
+  \publ{US Government Printing Office}.
+
+\bibitem[Tanabe \& Kaneko(1994)]{tanabe1994behavior}
+{\sc \au{Tanabe, Yoshihiro} \& \au{Kaneko, Kunihiko}} \yr{1994}  \at{Behavior
+  of a falling paper}.  \jt{Physical Review Letters}  \bvol{73}~(10),
+  \pg{1372}.
+
+\bibitem[Torres {\em et~al.\/}(2000)Torres, Hanazaki, Ochoa, Castillo \&
+  Van~Woert]{torres2000flow}
+{\sc \au{Torres, CR}, \au{Hanazaki, H}, \au{Ochoa, J}, \au{Castillo, J} \&
+  \au{Van~Woert, M}} \yr{2000}  \at{Flow past a sphere moving vertically in a
+  stratified diffusive fluid}.  \jt{Journal of Fluid Mechanics}  \bvol{417},
+  \pg{211--236}.
+
+\bibitem[Valdes {\em et~al.\/}(2012)Valdes, Urza, Pounds \&
+  Singh]{valdes2012samara}
+{\sc \au{Valdes, Samuel}, \au{Urza, Ignacio}, \au{Pounds, Paul} \& \au{Singh,
+  Surya}} \yr{2012} Samara: low-cost deployment for environmental sensing using
+  passive autorotation.  \bt{In {\em Robotics: Science and Systems Workshop on
+  Robotics for Environmental Monitoring\/}}. Citeseer.
+
+\bibitem[Vincent {\em et~al.\/}(2016)Vincent, Shambaugh \& Kanso]{vincent2016}
+{\sc \au{Vincent, Lionel}, \au{Shambaugh, W~Scott} \& \au{Kanso, Eva}}
+  \yr{2016}  \at{Holes stabilize freely falling coins}.  \jt{Journal of Fluid
+  Mechanics}  \bvol{801},  \pg{250--259}.
+
+\bibitem[Willmarth {\em et~al.\/}(1964)Willmarth, Hawk \&
+  Harvey]{willmarth1964steady}
+{\sc \au{Willmarth, William~W}, \au{Hawk, Norman~E} \& \au{Harvey, Robert~L}}
+  \yr{1964}  \at{Steady and unsteady motions and wakes of freely falling disks}
+  .
+
+\bibitem[Yasseri(2014)]{yasseri2014experiment}
+{\sc \au{Yasseri, Sirous}} \yr{2014}  \at{Experiment of free-falling cylinders
+  in water}.  \jt{Underwater Technology}  \bvol{32}~(3),  \pg{177--191}.
+
+\bibitem[Yick {\em et~al.\/}(2009)Yick, Torres, Peacock \& Stocker]{yick2009}
+{\sc \au{Yick, King~Yeung}, \au{Torres, Carlos~R}, \au{Peacock, Thomas} \&
+  \au{Stocker, Roman}} \yr{2009}  \at{Enhanced drag of a sphere settling in a
+  stratified fluid at small reynolds numbers}.  \jt{Journal of Fluid mechanics}
+   \bvol{632},  \pg{49--68}.
+
+\bibitem[Zhong {\em et~al.\/}(2013)Zhong, Lee, Su, Chen, Zhou \&
+  Wu]{zhong2013experimental}
+{\sc \au{Zhong, Hongjie}, \au{Lee, Cunbiao}, \au{Su, Zhuang}, \au{Chen, Shiyi},
+  \au{Zhou, Mingde} \& \au{Wu, Jiezhi}} \yr{2013}  \at{Experimental
+  investigation of freely falling thin disks. part 1. the flow structures and
+  reynolds number effects on the zigzag motion}.  \jt{Journal of Fluid
+  Mechanics}  \bvol{716},  \pg{228--250}.
+
+\end{thebibliography}
