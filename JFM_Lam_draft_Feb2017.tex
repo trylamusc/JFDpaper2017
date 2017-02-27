@@ -1,0 +1,342 @@
+% This is file JFM2esam.tex
+% first release v1.0, 20th October 1996
+%       release v1.01, 29th October 1996
+%       release v1.1, 25th June 1997
+%       release v2.0, 27th July 2004
+%       release v3.0, 16th July 2014
+%   (based on JFMsampl.tex v1.3 for LaTeX2.09)
+% Copyright (C) 1996, 1997, 2014 Cambridge University Press
+
+\documentclass{jfm}
+\usepackage{graphicx}
+\usepackage{epstopdf, epsfig}
+\usepackage{xcolor} % remove before submitting to JFM  -- Try Lam
+
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+
+\shorttitle{Disc Fluttering in Stratified Flows}
+\shortauthor{T. Lam, L. Vincent and E. Kanso}
+
+\title{Disc Fluttering in Stratified Flows}
+
+
+\author{Try Lam,
+  Lionel Vincent
+ \and Eva Kanso
+  \corresp{\email{kanso@usc.edu}}}
+
+\affiliation{Department of Aerospace and Mechanical Engineering, University of Southern California,  \protect\\Los Angeles, CA 90089, USA}
+%\affiliation{\aff{1}Department of Aerospace and Mechanical Engineering, University of Southern California,  \protect\\Los Angeles, CA 90089, USA}
+
+% ============================================================================================================
+% ============================================================================================================
+
+\begin{document}
+\maketitle
+
+% ============================================================================================================
+\begin{abstract}
+%Disc flutter in stably-stratified flow
+\end{abstract}
+
+% ============================================================================================================
+\begin{keywords}
+fluttering motion, stratified flow, free-falling motion [placeholder for entry; remove before submitting]
+\end{keywords}
+ 
+
+% ============================================================================================================
+\section{Introduction}\label{sec:intro}
+% ============================================================================================================
+€™
+Stably stratified fluids can found throughout nature in lakes, ponds, oceans, the atmosphere, and even in the sun.  As an example, apart from the upper layer and isolated regions, the ocean is generally stably stratified, where the vertical density gradient is negative ($\gamma = d\rho/dz<0$, where $\rho$ is the density of the fluid and $z$ is the vertical direction), or for the case of temperature stratification, a positive vertical temperature gradient. This is prevalent in isolated environments such as pores and fractures where mixing is negligible \citep{macintyre2014strat}, where intense biological activities and accumulation of particles and organisms were found in stably stratified fluid. 
+
+% engineering implications
+In engineering, stable stratification can be utilized for heat and mass transports problems, such as cooling of nuclear reactor \citep{zhao2010overview} and energy generation from solar ponds \citep{lin1982review}. In addition, stratification plays an important role in engineering design and analyses as density variations in the fluid may have unforeseen influences on an object's motion.  A notable example, is the phenomenon known as ``dead-water'' phenomenon \citep{maas2006worden}, where a boat on the surface experienced an increase in drag due to low pressure build up behind the vehicle from internal waves being generated along the interfaces of two-layer stratified fluid  \citep{mercier2011resurrecting}, such that the boat remains ``dead'' in the water.  This phenomenon exist when a layer of lower density fluid, such as fresh water, overlays higher density fluid, such as sea water, e.g., at the mouth of a river or near melting glaciers. When testing swimmers, \citet{ganzevles2009swimming} found that the energy per stroke is far less in stratified flow than in pure water.  They also found that the swim speeds are slower in stratified flow, by as much as $15\%$.
+
+Similarly, enhanced drag was observed for horizontally moving spheres by \citet{lofquist1984drag}, and found that changes in the drag coefficient $\Delta C_D$ is a function of stratification level. Although many previous studies investigated horizontal motion in stratified flows, similar behaviors have been observed for flows in vertical motion
+ \citep[see][]{torres1999numerical,yick2009}, where an object's vertical motion is altered due to stratification. For example, for a linear stably-stratified flow for $Re$ between 25-100, \citet{torres1999numerical} found an increase in the drag of a settling sphere is due to a rear buoyant jet forming behind the sphere.
+
+For stratified flow without shear, the dynamics then depend on both Reynolds number $Re = U d / \nu$ and Froude number $Fr = U / N d$, where $N = ( -\gamma g / \rho_0 )^{1/2}$ is the Brunt-V{\"a}is{\"a}l{\"a} (stratification) frequency, or the natural frequency of oscillation of a vertically displaced fluid parcel in the stratified fluid, $\rho_0$ is a reference density, $\gamma$ is the density gradient of the fluid, $\nu$ is kinematic viscosity, $d$ is diameter of the disc, $U$ is the mean vertical velocity ($U = h/T$), $h$ is the descent height, and $T$ is the total time of the descent. The Froude number tells us about the stability and strength of the stratification. For strong stable stratification, the Froude number is a small real number.  For the case of no stratification, e.g. pure water, $Fr = \infty$. The Reynolds number $Re$ and Froude number $Fr$ can be combined and expressed in terms of the viscous Richardson number $Ri = Re/ Fr^2$, which express the relative importance of the stabilizing effect from buoyancy to the destabilizing shear forces. Note, this Richardson number is not the same as the one used in oceanography, which is used for large-scale vertical shear of water column. Here, the shear forces we are concern with is from viscous shear generated by the descending object.
+
+In this paper, we experimentally investigate the motion of fluttering discs in vertically stratified salt-water fluid and compare the motion to that of pure water. Even without the presences of stratification, such motion is rich in dynamics with complex interaction between the fluid and solid. Such un-steady free falling behaviors has attracted the attention of scientists as early as 1853 with Maxwell as he observed a rectangular slip of paper falling through the air \citep{maxwell}. Throughout the years, the falling patterns and associated phase space of discs falling in constant density fluid has been progressively refined for both numerical and experimental studies, and found that for small thickness-to-width ratio the falling patterns is dependent Reynolds number, $Re$, and the dimensionless moment of inertia, $I^*$. Notably, \citet{willmarth1964steady} constructed a phase diagram by experimentally dropping disks with various thickness-to-diameter ratio. They were able to define a clear boundary in the phase space between steady and unsteady (fluttering and tumbling) oscillating motion.  For $Re < 100$, viscous forces dominates and a disc motion released with near zero initial conditions will descend steadily with small to no libration independent of $I^*$. For larger values of $Re$, when inertial forces plays a more dominate role, other three descent modes can be observed for difference ranges of  $I^*$, as noted in \citet{field1997}.  \citet{stringham1969} perform similar experiments with spheres, cylinders, and disks and computed drag coefficients for a wide range of Reynolds numbers. \citet{field1997} also experimented with varying initial release angles (disk's normal to the vertical) and found that the final angle is a function of the initial angle. See \citet{ern2012wake} for a comprehensive review of both experimental and computational techniques of free-falling bodies in fluids. In general, the descent motion falls into four main types: steady, fluttering, tumbling, or chaotic depending on $Re$ and $I^*$,  where the dimensionless moment of inertia $I^* = I/\rho_f d^5 = \pi \rho t/64 \rho_f d$, where $\rho$ is the density of the disc, $\rho_f$ is the density of the fluid. 
+
+Recently, \citet{auguste2013falling} numerically explored similar falling motion of discs with parameter space in $I^*$ and Archimedes number $Ar = \sqrt{3/32} U_g d / \nu$, which is a modified Reynolds number with gravitational speed $U_g = \sqrt{2|\rho/\rho_f-1|gh}$.  In their study, they explored $Re < 300$ (or approximately $Ar < 110$), and defined additional non-planar sub-regimes they referred to as hula-hoop (gyrating while fluttering) and helical autorotation (tumbling with plane rotation). The hula-hoop behavior is also observed in \citet{luke2014}.  This zigzag or fluttering motion was also experimentally investigate by \citet{zhong2013experimental} where they used dye visualization and particle image velocimetry (PIV) to understand the flow structure of fluttering motion for different disc thickness-to-diameter ratios.  \citet{lee2013experimental} expanded the experiment by looking at transitions from two-dimensional fluttering to spiral motions, and noted a critical Reynolds number where the transition occurs. They also looked at different initial release angles and how it influences the fluttering trajectories.  
+
+%\begin{figure}
+% \centerline{\includegraphics[width=1.\textwidth]{figure/IstarVsRe}}
+%  \caption{Four main descent modes shown in $Re$ and $I^*$ space with boundaries re-created from \citet{field1997}, where the location of the disc falling mode in water ($\bullet$)  is shown for an acrylic disc with dimensions $d = 2.54~cm$ and $t = 2~mm$.}
+%\label{fig:revsi}
+%\end{figure}
+
+Numerical investigations were also conducted by \citet{jin2008numerical}, \citet{pesavento2004falling}, \citet{andersen2005analysis}, \citet{andersen2005unsteady}, and \citet{chrust2013} for thin discs and cards.  \citet{jin2008numerical} developed a moving mesh method for Navier-Stokes equations and had good agreements between experimental and computational trajectories, and clarified some discrepancies noted in \citet{andersen2005unsteady}, who along with \citet{andersen2005analysis} and \citet{andersen2005unsteady} studied the free falling dynamics in a quasi-steady force model in the body frame.  Similar to \citet{auguste2013falling}, \citet{chrust2013} numerically studied the dynamics of free falling disc, but parameterize the phase space using the non-dimensionalized mass $m^* = m / \rho_f d^3$ and the Galileo number $G = \sqrt{|m^* - (V/d^3)| g d^3} / \nu$, where $V$ is the volume of the body. The Archimedes number is related to the Galileo number by $Ar = \sqrt{3/4\pi} G$. Recently, \citet{kuznetsov2015plate} numerically study the regular and chaotic bahaviors of falling plates using the quasi-steady models introduced by \citet{tanabe1994behavior}, \citet{belmonte1998flutter}, \citet{pesavento2004falling}, and found two-dimensional descent motion to be rich in dynamics with nonlinear characteristics such as fixed points, limit cycles, attractors, and bifurcations. 
+
+% NOTE: \citet{kuznetsov2015plate} paper is a very interesting paper in the rich dynamcial structure of the 2D falling coin/paper problem. 
+%  $t/d < 0.1$ is selected
+%  height $h/d>15$  allow falling regime to fully developed during the observation 
+
+Recent experimental studies by \citet{luke2014}, found probability density functions ($pdf$) associated with the landing distribution for each of the four falling modes. They found that the center is one of the least likely landing site for non-steady descents, characterized by dips in the $pdf$ around the center. For tumbling descent, the $pdf$ forms a ring structure about the center, while for chaotic descents, the $pdf$ distribution is much more widely distributed. \citet{vincent2016} later investigate the falling behaviors of annular discs in the same $Re$ and $I^*$ space, and found the central hole in the disc to be a stabilizer of the descent motion as the inner edge forms an counter-rotating vortex ring to that of the outer edge. 
+
+This paper investigates the gravitational settling of heavy discs in the presence of stably-stratified salt water as compared to a constant density water background.  The final landing location for multiple drops are recorded to compute the landing distribution, where the influence of stratification is documented. To further study the effect of stratification, descent trajectories and orientations are reconstructed for the free-fall fluttering disc. The overall process and experiment is depicted in figure \ref{fig:introimage}. The results presented here may have a direct impact on many environmental and engineering processes where detailed understanding of the descent dynamics in stratified flow is of significant importance.
+
+\begin{figure}
+  \centerline{\includegraphics[width=1.0\textwidth]{figure/descent_in_tank_with_landing_distribution}}
+ \caption{(Colour online) Schematic of the tank setup with the coordinate system centered at the initial release location.  The descent motion is reconstructed for the free-fall fluttering disc as shown. The final landing location for multiple drops are also recorded to compute the landing distribution.}
+\label{fig:introimage}
+\end{figure}
+
+% ============================================================================================================
+\section{Methods}\label{sec:method}
+% ============================================================================================================
+
+To investigate how the presence of stratified flow influence the trajectory descent motion a disc and fluid system is selected, such that, the descent mode does not change after stratification, i.e., the fluttering motion of a disc observed in pure water will persist even after the background fluid is now linearly stratified with salt-water. Although, a transition in the descent mode would be of interests, our initial investigation is to understand the quantitative differences of a disc in free-falling fluttering descent when the fluid is stratified and no longer of constant density.   
+
+Due to practical experimental limitations, such as safety and cost, we elected to use salt-water for the stratification process.  A two-tank (or double-tank) method is used to generate a stable linear density profile in the main or test tank. This method was proposed by \citet{fortuin} and \citet{oster1965density}, where a forced-drained approach applying mechanical pumps to control the fluid flow was used. A summary of the setup and stratification process can be reviewed in \citet{hill2002general}. Here we use a free-drained approach, which rely on gravity and not pumps, to produce the linear vertical stratification. To produce a top-filled stable vertical stratification ($\gamma = d\rho/dz<0$) with the higher density at the bottom and the lower density solution at the top of the tank, two tanks of equal sizes (approximate 1/2 of the main tank) with different density is required. In our case the fluid lower density fluid is water ($\rho_1 \approx 1000~kg/m^3$) and the higher density is salt-water solution $\rho_2$. During the tank filling process, the lower density fluid ($\rho_1$) flows to the higher density ($\rho_2$) tank where it is mixed prior to filling the main experimental tank. A sponge and floater are used to ensure that the fluid is evenly distributed by minimizing mixing and remains top filled.  A schematic showing the setup is shown in figure \ref{fig:setup}b.
+
+%The resulting density gradient $\gamma = -290~kg/m^4$ and the stratification frequency $N = 1.69~rad/sec$.
+
+In dealing with non-stratified and stratified effects the time scale $\tau$ depends on the physical process. For example, with viscous effects $\tau = L^2/\nu = d^2/\nu$, and, therefore, the time scale is $Re = \tau / (L/U) = Ud/\nu$ with velocity scale $U$ and length scale $L = d$. For stratification effects, we have $\tau = 1/N$ and the time is $Fr = \tau/(L/U) = U/Nd$. Therefore, including the dimensionless moment of inertia $I^* = I/\rho_f d^5 = \pi \rho t/64 \rho_f d$ described in \S\ref{sec:intro}, the three main non-dimensional parameters that govern motion for descending disc are $I^*$, $Re$, and $Fr$.  Furthermore, since our investigation deals with descent ranges and heights that are much greater than the disc diameter ($h>>d$), it is occasionally more constructive to scale these lengths by the descent height $h$. 
+
+To investigate the fluttering motion, an acrylic disc ($\rho=1143.7~kg/m^3$) with dimensions $d = 2.54~cm$ and $t = 2~mm$ (see figure \ref{fig:setup}a) was selected for the baseline case. In the ($Re, I^*$) space, this place the motion in the fluttering mode regime with a dimensionless moment of inertia $I^* = 0.0035$ and Reynolds number of $Re = 1640$. The average speed $U$ is not known \textit{a priori} and is found by experimentally dropping the disc and recording the time it takes to descend the length of the tank. Table \ref{tab:param} lists the key parameters used throughout this paper.
+
+ \begin{table}
+  \begin{center}
+\def~{\hphantom{0}}
+  \begin{tabular}{lccccc}
+      $Case$      		& $I^*$		& $Re$	& $Fr$ 		& $Ri$	& $N$ (rad/sec)		\\[3pt]
+       Water        		& ~~0.0044~	& 1580	& ~$\infty$~  	& 0		& 0				\\
+       Stratified-1   	& ~~0.0042~	& 1141 	& ~1.51~		& 501	& 1.06			\\
+       Stratified-2		& ~~0.0041~ 	& 1094 	& ~0.90~		& 1336	& 1.69	
+  \end{tabular}
+  \caption{Key dimensional and non-dimensional parameters. An average fluid density value was used to compute $I^*$ for the stratified cases.}
+  \label{tab:param}
+  \end{center}
+\end{table}
+
+
+
+%For the stratified profile shown in figure \ref{fig:setup}b, the stratification changes the non-dimensional parameters to $I^* = 0.0030$ and $Re = 1160$, where the maximum density of the stratified fluid is used for $\rho_f$ in the calculation of $I^*$. 
+
+The investigation tank is a cubic acrylic container, $0.61 m$ on each side ($\approx$ 60 gallons), see figures \ref{fig:introimage} and \ref{fig:setup}b. In the experiments, the discs were released with near zero initial conditions just below the surface of the fluid using an electromagnetic release mechanism. To  determine the  uncertainty  inherent  in  the  release  mechanism, a  steel  disc in air is released using the mechanism  TBD  times. The standard deviation of the steel disc descent was within $TBD\%$ of  the  vertical  drop  distance. [TBD: NEED TO TEST THIS]
+
+\begin{figure}
+  \centerline{\includegraphics[width=1.0\textwidth]{figure/coin_tanks}}
+ \caption{(\textit{a}) Disc schematic, where $\theta$ is the angle between the vertical $z$ direction and the disc normal direction.  (\textit{b}) Two-tank experimental free-drained setup used to generate a stable linear density profile in the tank. (\textit{c}) Top view of the experimental tank and camera setup. A mirror is placed and aligned to obtain the orthogonal side view of the tank needed for the image processing and reconstruction of the disc's trajectory and orientation.}
+\label{fig:setup}
+\end{figure}
+
+For the landing distribution, the location of the disc at the bottom of the tank is recorded with a top mounted camera. To prevent the disc from sliding while it lands a grid mesh is added to to the bottom of the tank. For the reconstruction of the descent trajectory and orientation, the fluttering descents were recorded using a high resolution digital video camera (Point Grey Grasshopper3) set to a moderate frame rate $>$ 50 fps.  The camera and tank setup is shown in figure \ref{fig:setup}c.  To obtain the corresponding side view of the disc's descent a mirror is used instead of multiple cameras. Proper calibration is required to adjust for the mirrored view.  The position and orientation are obtained directly from the reconstructed trajectory after high frequency noise are removed. The velocity and orientation rates were obtained using finite differencing. The experimental setup and procedure, including the image processing algorithm for the trajectory and orientation reconstructions, are similar to those of \citet{luke2014} and  \citet{vincent2016}.
+
+% ============================================================================================================
+%\section{Results}\label{sec:results}
+% ============================================================================================================
+%To test the influence stratification has on the disc's trajectory in the fluttering regime we use pure water as our baseline for the disc and tank described in \S\ref{sec:method}. Drops are made in water and near identical drops are made in the stratified flow. We seek to observe (1) the affect stratification has on the landing distribution, and (2) the affect stratification has on the disc's trajectory and orientation.
+
+% ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\section{Landing Distribution}
+% ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+To test the influence stratification has on the disc's trajectory in the fluttering regime we use pure water as our baseline for the disc and tank described in \S\ref{sec:method}. Drops are made in water and near identical drops are made in the stratified flow. Repeating the experiment done by \citet{luke2014}, we made multiple repeated drops (500) in pure water initially centered at ($0,0$) to obtain our baseline for the fluttering case. The resulting landing distribution for the drops in water, expressed as histogram of probability per unit bin, is shown in figure \ref{fig:3dlanding}a, and the radial distribution is shown in figure \ref{fig:radialdist}a. Our results are similar to those by \citet{luke2014}, where a dip in the radial histogram near the origin and a tight radial distribution (standard deviation $\sigma<10\%$ descent height) are observed.
+
+To observe the influence stratification has on the radial distribution we repeat the (500) drops in stratified flow with $Fr = 0.9$ and $N = 1.69$ rad/sec (density gradient $\gamma = -290~kg/m^4$). Figure \ref{fig:3dlanding}b shows the distribution of the landing location for stratified flow case; when compared to figure \ref{fig:3dlanding}a, we note a larger radial dispersion.  Assuming normal distribution profiles, the ratio of the mean standard deviations of the final landing distribution for descents in stratified flow to that of water is $<\sigma>_{strat} / <\sigma>_w = 1.92$. This larger radial distribution is more evident in figure \ref{fig:radialdist}a, which shows the histogram of the radial distributions for both water and stratified flow.  Assuming a lognormal probability density function, the variance for the descents are $\nu_w = 0.002$ for water and $\nu_{strat} = 0.011$ for stratified flow, or $\sqrt{\nu_{strat} / \nu_w}= 2.35$. The differences in the mean is $m_w = 0.06$ for water and $m_{strat} = 0.084$ for stratified flow, or $m_{strat} / m_w = 1.4$.  Observing the cumulative distribution function $(cdf)$ in figure \ref{fig:radialdist}b, we observe that two curves deviate quickly after $r/h>0.05$. At $0.11~r/h$ $90\%$ of the drops in water are contained. For the stratified case, the $90\%$ cumulation is reached at $0.20~r/h$. A summary of the distribution parameters are listed in table \ref{tab:landingdist}.
+
+
+\begin{figure}
+  \centerline{\includegraphics[width=1.0\textwidth]{figure/landing_dist_xy}}
+ \caption{(Colour online) Distribution of the final landing location, expressed in probability per bin, for 500 free-fall fluttering discs in (a) water and (b) stratified flow ($Fr = 0.9$), where $x$ and $y$ are normalized by the depth of the fluid, $h$. Disc are initially released at ($x,y$) = (0,0).}
+\label{fig:3dlanding}
+\end{figure}
+
+\begin{figure}
+  \centerline{\includegraphics[width=1.0\textwidth]{figure/landing_dis_radial}}
+ \caption{(a) Histogram of the range distribution at their final landing location, expressed in probability per bin, for 500 free-fall fluttering discs in both water and stratified flow ($Fr = 0.9$), where $r$ is normalized by the depth of the fluid, $h$. (b) The cumulative distribution function $(cdf)$ is plotted as a function of normalized range $r/h$ for both the descents in water and stratified flow.} 
+\label{fig:radialdist}
+\end{figure}
+
+\begin{table}
+  \begin{center}
+\def~{\hphantom{0}}
+  \begin{tabular}{lcccccc}
+      $Case$      	&  $Fr$   			& $\sigma_1$/h 	& $\sigma_2$/h 	& $r_{m}/h$	& $r_{var}/h$		& 0.9 $cdf$ \\[3pt]
+       Water        	&  ~~$\infty$~       	& ~0.055~			& ~0.036~			& ~0.060~ 	& ~0.002~			& ~$r/h =$ 0.11~\\
+       Stratified   	& ~~0.9~    		& ~0.097~			& ~0.078~			& ~0.084~		& ~0.011~			& ~$r/h =$ 0.20~
+  \end{tabular}
+  \caption{Distribution parameters of the final landing distribution. $\sigma_1$ and $\sigma_2$ are the standard deviations along the major and minor axes from figure \ref{fig:3dlanding}. $r_m$ and $r_{var}$ are the mean and variance of the radial distribution normalize by the descent height $h$, and $cdf$ is the cumulative distribution function as shown in figure \ref{fig:radialdist}.}
+  \label{tab:landingdist}
+  \end{center}
+\end{table}
+
+
+
+% ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\section{Trajectory Reconstruction}
+% ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+To investigate further the affect stratification has on descent fluttering motion, trajectories are reconstructed in water and stratified flow, at $N = 1.06$ rad/sec and $N = 1.69$ rad/sec, with focus on the later. The discs are released with near zero initial conditions top center of the tank, with the $x$-axis along the front of the tank (left-to-right), $y$-axis along the depth of the tank, and $z$-axis along the height of the tank centered at the initial drop location, as illustrated in figure \ref{fig:introimage}. Coin descents are recorded and processed as described in \S\ref{sec:method} for reconstructing the position and orientation information.
+
+% ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsection{Effect of Stratification on Translational Motion}
+% ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{figure}
+\centering
+\includegraphics[width=1.\textwidth]{figure/zzdot}
+ \caption{(Colour online) (\textit{a}) Descent depth $z$ and (\textit{b}) descent velocity $\dot{z}$ as a function of time for free fall fluttering discs in water (\textcolor{gray}{$\--$}) and $N = 1.69~rad/sec$ stratified flow ($\--$), where $z$ is normalized by the depth of the fluid, $h$ and $\dot{z}$ is normalized by the terminal speed in water $V_t$. Curve fits to the mean respective cases using (\ref{eq:simpledescenteom}) are overlaid in bold lines where $C_D = 1.44$ for water descents (blue curve) and $C_D = 1.83$ for stratified flow (red).}
+\label{fig:comparezandzdotsimpledescent}
+\end{figure}
+
+
+
+\begin{figure}
+  \centerline{\includegraphics[width=1.0\textwidth]{figure/all_avgZdot_and_avgThetaMax_vs_Z}}
+ \caption{(Colour online) Average (\textit{a}) vertical velocity normalized by the terminal speed $V_t$ in water, and (\textit{b}) peak inclination (maximum inclination angle at the inflection point where the angular rate is near zero) as a function of depth ($-z$), where $-z$ is normalized by the depth of the fluid, $h$.  Cases in water (\textcolor{gray}{$\--$}) and $N = 1.69~rad/sec$ stratified fluid ({$\--$}).  Linear curve fit to the mean cases are overlaid in bold blue for water descents and bold red for cases stratified flow, where the slope is -0.043 for water and 0.169 for stratified flow.}
+\label{fig:zdot_theta_vs_z}
+\end{figure}
+
+% h = 21 inch = 0.5334 meters
+% terminal speed in water ~ 7.16 cm/sec 
+
+A pronounced result of stratification is the affect it has on the vertical descent motion, $z$. Figure \ref{fig:comparezandzdotsimpledescent} shows the vertical descent motion $z$ and $\dot{z}$, where $z$ is normalized by the depth of the fluid $h$, and $\dot{z}$ is normalized by the terminal speed in water, $V_t = 7.16~cm/sec$. Here we note the difference in the descent time. In the pure water fluid, the average disc descent times were approximately 6.5 seconds, while the cases in stratified fluid were nearing 10 seconds to descend. In addition to the descent duration, the slope of $z$ as a function of time is no longer linear for the cases in stratified flow, indicating a deceleration in speed as it descends. This descent profile is similar to the descent sediment in stratified flow shown in \citet{blanchette2005particle}. This deceleration is clearly seen in figure \ref{fig:comparezandzdotsimpledescent}b and in figure \ref{fig:zdot_theta_vs_z}a, where the average speed of the descents are plotted as a function of time. To focus only of the fully developed fluttering descent motion, the first few cycles of the transient behavior were removed in figure \ref{fig:zdot_theta_vs_z}a.  Looking at the average descent speed, the descents in water approaches $5.59~\pm0.33~cm/sec$ and remain steady with a negative slope. For the descents in stratified fluid ($\--$) the average descent speed approaches $3.89~\pm0.15~cm/sec$. An upward (positive $z$) slope or acceleration of $0.85~\pm0.16~mm/{sec}^2$ exist. A summary comparing the reconstructed results between descents in water and descents in stratified flow are shown in figure \ref{fig:summary_recon}.
+
+It is noted, that the vertical descent motion in figure \ref{fig:comparezandzdotsimpledescent} follows closely to the dynamics of a simple descending particle of the form 
+% a = -g + \rho_f  V g / m  + (1/2) \rho_f U^2 C_D A / m
+\begin{equation}
+  	\ddot{z} = -g +\frac {1}{m}\rho_f\left(z\right) V g + \frac{1}{2m}\rho_f\left(z\right) |\dot{z}|^2 C_D A 
+\end{equation}
+\label{eq:simpledescenteom}
+\\where gravity constant $g = 9.806~m/s^2$, $V$ is the volume of the disc, $C_D$ is the drag coefficient, area $A = \pi d^2 / 4$, $m$ is the mass, $\rho_f\left(z\right) = \rho_0 + \gamma z$, and density gradient $\gamma = d\rho/dz$. The $z$ and $\dot{z}$ state from the dynamical model is overlaid in figure \ref{fig:comparezandzdotsimpledescent} for $C_D = 1.44$ for water descents and $C_D = 1.83$ for stratified flow, where the value of $C_D$ is selected to best fit to the average reconstructed $z$ state. In both figures we note acceptable agreements for predicting the vertical motion. 
+
+We also note that the $C_D$ for stratified flow is larger than that of water, $C_{D}^{Strat}/C_{D}^{Water} = 1.27$.  This increase or enhanced drag has also been observed by \citet{torres2000flow} and \citet{yick2009} for vertical motion of spheres in stratified flow, and found correlations between $C_D$ and the Froude number $Fr$. % for water (1/Fr) = 0
+
+%The average radial $r = \sqrt{x^2+y^2}$ displacement is shown in figure \ref{fig:dropspeed}b. We note a somewhat larger dispersion for the stratified case with standard deviation $\sigma = 0.18$ inch for the cases in water and $\sigma = 0.39$ inch for cases in stratified flow. In addition, the uncertainties radial rate (or slope) for the stratified case is larger than that of the the pure water cases,  $\sigma = 0.032~in/sec$ and $\sigma = 0.016~in/sec$, respectively. Based on the large uncertainty values the affect stratification has on the radial displacement cannot be accurately inferred with 10 descent cases. 
+
+% ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\subsection{Effect of Stratification on Orientational Motion}
+% ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+As the discs descends in the fluttering mode, the inclination (angle between the norm vector of the coin and z-axis) will oscillate between extremas as it cycles from maximum inclination to zero inclination to minimal inclination and back to zero inclination. This inclination frequency has been observed to be 1.63 Hz for the average ten reconstructed descent cases in water and 1.44 Hz for the descents in stratified flow. In figure \ref{fig:zdot_theta_vs_z}b the peak inclination angle (the maximum angle between the norm vector of the coin and z-axis at the inflection point where the angular rate is near zero) is plotted for ten descents in water (\textcolor{gray}{$\--$}) and the ten descents in stratified fluid ($\--$).
+
+
+\begin{figure}
+\centering
+\includegraphics[width=1.\textwidth]{figure/thetadthetaphase2}
+\caption{(Colour online) (\textit{a}) $\theta$-$\dot{\theta}$ phase plot for fluttering descents in water (\textcolor{blue}{$\circ$}) and $N = 1.69~rad/sec$ stratified fluid (\textcolor{red}{$x$}). (\textit{b})  $\theta$-$\dot{\theta}$ phase plot due to analytical buoyancy driven angular oscillation.}
+\label{fig:thetadthetaphase}
+\end{figure}
+
+
+From figure \ref{fig:zdot_theta_vs_z}b, a notable decrease in the peak inclination is shown for the stratified cases $32.1\pm5.7~deg$ versus $38.2\pm0.5~deg$ in water, and the peak inclination descent rate for the stratified case is approximately $-1.3\pm0.7~deg/sec$ as oppose to that of water water which is approximately $0.14\pm0.26~deg/sec$. We believe this decease in inclination rate in the stratified fluid is due to a small restoring torque that exist between the center of gravity and the center of buoyancy. When the inclination angle is non-zero the side of the coin closer to the bottom of the tank will experience higher buoyancy force due to its higher density, thus, causing a torque in the direction which minimizes the inclination angle. From a hydrostatic model the restoring acceleration is found by computing the buoyancy offset due to the stratification by integrating the buoyancy element over the disc's volume, and is found to be
+\begin{equation}
+	%\ddot{\theta} = \frac{V g \gamma d^2}{16~I~} sin\left(\theta\right) cos\left(\theta\right)
+	%\ddot{\theta} = -\frac{\rho_0}{\rho} N^{2} sin\left(\theta\right) cos\left(\theta\right)
+	\ddot{\theta} = -\frac{\rho_0}{2\rho} N^{2} sin\left(2\theta\right)
+\end{equation}
+\label{eq:restoretorque}
+% max( sin\left(\theta\right) cos\left(\theta\right) ) = 0.5
+%\\where gravity constant $g = 9.806~m/s^2$, $V$ is the volume of the disc, $d$ is the diameter of the disc, $I$ moment of inertia of the disc, $\gamma = d\rho/dz$ is the density gradient, 
+\\where $\rho_0$ is the reference density of the fluid, $\rho$ is the density of the disc, $N$ is the Brunt-V{\"a}is{\"a}l{\"a} freqency, and $\theta$ is the inclination or nutation angle. For $N = 1.69~rad/sec$, equation \ref{eq:restoretorque} gives a maximum radial restoring acceleration of $142.9~deg/sec^2$ at $\pm45~deg$ and zero at $0~deg$ and at $\pm90~deg$. For the derivation of the above equation, see \S{\ref{appA}}.
+
+From the Brunt-V{\"a}is{\"a}l{\"a} frequency $N$, we understand how stratification influence vertical translational motion, as it gives the angular frequency of the buoyancy driven oscillation, but from \ref{eq:restoretorque} we have a key relationship on how stratification affects orientational dynamics. Equation \ref{eq:restoretorque} provides a non-linear relation with $\theta$, that is similar to the motion of pendulum. If a dissipative angular acceleration term is added to the equations of motion (of the form $-k\dot{\theta}$, where $k$ is some constant), this will cause both $\theta$ and $\dot{\theta}$ to approach zero as time progress. 
+
+% sort of look like a duffing equation 
+However, from experimental data (figure \ref{fig:thetadthetaphase}a), we do not always observe such behavior for fluttering descents with or without stratification. Instead it appears that for some csaes, the librating region occurs away from $\theta = 0$ in pairs, yet still bounded to $\theta_{max} \approx \pm45$ deg. The result is consistent with our understanding of disc dynamics for non-steady descents, where a disc released with zero initial inclination would begin to rotate and the disc would eventually either flutter, tumble, or a chaotic combination of fluttering and tumbling. Furthermore, these librating regions around the $\approx \pm 20$ deg fixed points, corresponds to hula-hoop descents \citep{auguste2013falling}, where the inclination angle never goes to zero, but precess with a near constant angle. Note that, although the inclination angle is taken always to be positive, by definition, in selected analysis it is useful to define a moving plane to view orientation changes comparable to experiments and computations done in two dimensions, as with figure \ref{fig:thetadthetaphase}a.
+
+
+% RECONSTRUCTED SUMMARY
+
+Reconstructed results between descents in water and descents in stratified flows are summarized in figure \ref{fig:summary_recon} and table \ref{tab:reconsummary}, including the results from the $N = 1.07~rad/sec$ stratified flow cases. %For the average radial range and range rate, little can be decipher 
+
+\begin{figure}
+  \centerline{\includegraphics[width=1.0\textwidth]{figure/reconstructed_summary}}
+ \caption{Average (\textit{a}) peak inclination (deg), (\textit{b}) radial range (cm), (\textit{c}) vertical speed (cm/sec), (\textit{d}) peak inclination rate (deg/sec), (\textit{e}) radial range rate (mm/sec), (\textit{f}) vertical acceleration (mm/sec$^2$), for reconstructed descents in pure water ($N=0$), $N = 1.07~rad/sec$ and $N = 1.69~rad/sec$ salt-stratified flow. Error bars are $1\sigma$ standard deviations of the mean values from ten reconstructed cases.  In (a), larger average peak $\theta$ variations are observed for the stratified cases.  In (d), non-zero rates in the average peak $\theta$ existing, which indicates a reduction in $\theta$ as function of time or descent depth. In (f), a positive upward acceleration is observed for stratified flows. }
+\label{fig:summary_recon}
+\end{figure}
+
+
+\begin{table}
+  \begin{center}
+\def~{\hphantom{0}}
+  \begin{tabular}{lcccccc}
+      $N$		& $\theta_{peak}$		& $\dot{\theta}_{peak}$	& $r$				& $\dot{r}$			& $\dot{z}$			& $\ddot{z}$ \\[3pt]
+      $(deg/sec)$	& $(deg)$				& $(deg/sec)$			& $(cm)$				& $(mm/sec)$			& $(cm/sec)$			& $(mm/sec^2)$ \\
+      &&&&&&\\
+       0 (water)	& $~37.9\pm$0.9		& ~0.25$\pm$0.33		& ~2.12$\pm$2.12		& ~0.41$\pm$0.39		& ~--5.60$\pm$0.34		& ~-0.23$\pm$0.31\\
+       1.07   	& $~38.2\pm$4.7		& ~-0.58$\pm$0.65		& ~3.53$\pm$3.43		& ~0.46$\pm$0.54		& ~--4.04$\pm$0.31		& ~0.84$\pm$0.39\\
+       1.69   	& $~32.1\pm$5.7		& ~-1.30$\pm$0.70		& ~2.55$\pm$0.99		& ~0.30$\pm$0.81		& ~--3.88$\pm$0.15		& ~0.85$\pm$0.16
+  \end{tabular}
+  \caption{Average reconstructed results for fluttering descents in pure water and salt-stratified flow. Errors are $1\sigma$ standard deviations of the mean values from ten reconstructed cases.  Results are also summarized in figure \ref{fig:summary_recon}.}
+  \label{tab:reconsummary}
+  \end{center}
+\end{table}
+
+
+% ============================================================================================================
+\section{Discussion}\label{sec:discussion}
+% ============================================================================================================
+
+%The extended flattening or spreading of the distribution for the stratified flow case can be seen in figures  \ref{fig:3dlanding} - \ref{fig:radialdist}.  
+%accidental drops of pipes and other objects in the sea \citet{majed2013high} and \citet{awotahegn20163d}
+
+Descent motion of discs and cards have warranted a lot of attention in the recent decades, both experimentally and numerically (see, for example, \citet{ern2012wake} and \citet{kuznetsov2015plate}). The motion of these free falling objects are generally complex as the solid body and the fluid interacts affecting the path of the falling object. However, for small thickness-to-width ratio the general descent behavior (steady, fluttering, tumbling, or chaotic) can be determined based on the Reynolds number, $Re$, and the dimensionless moment of inertia, $I^*$ (see \citet{field1997}). 
+
+This paper investigated the affect vertical stratification has on the fluttering falling motion of discs. By dropping multiple discs with similar initial conditions and reconstructing their states, we found that stratification enhances the radial dispersion of the disc ($\sigma_{N=1.69}/\sigma_{N=0} \approx 2$), while simultaneously, decreasing the vertical descent speed and the inclination angle during the descent. We note, that wider landing dispersions is usually associated with chaotic descent motion (a combination of fluttering and tumbling) in the pure water case, as shown in \citet{luke2014}. However, stratification appears to perform similar, albeit smaller, enhancing of the absolute radial motion without tumbling, thus, the discs never flips. 
+
+The understanding of disc distribution due to stratification effects may have a significant impact on the understanding of unpowered robotic descents, and geological and biological transport, where density and temperature variations may occur.  We can imagine engineering applications where such behavior could be useful, for example, placement of photonic solar cells on micro robotics where landing distribution is to be maximized \citep[see][]{valdes2012samara,pounds2016automatic}, or enhance our understanding of accidental drops of objects such as pipes during offshore operations \citep[see][]{yasseri2014experiment,majed2013high,awotahegn20163d}.
+
+% ============================================================================================================
+\section*{Acknowledgements}
+% ============================================================================================================
+
+This work is partially supported by the NSF grant CMMI 13-63404. The authors would like to also thank Stephen Rolfe and Joe Frigo for their assistances with the experiments.
+
+
+% ============================================================================================================
+\appendix
+\section{}\label{appA}
+% ============================================================================================================
+The restoring angular acceleration due to buoyancy for a hydrostatic model is found by first computing the buoyancy offset due to the stratification by integrating the buoyancy element over the disc's volume, then 
+
+\begin{equation}
+	x_B = \frac{ \int_V x\rho~\partial V }{ \rho_0 V }	
+  \label{eq:centerofb}
+\end{equation}
+\\where $\rho = \rho_0 - |\gamma| x \sin\left( \theta \right)$, $\gamma$ linear fluid density gradient, $\rho_0$ is the fluid density at the center of the disc, $x$ is the direction along the line of the buoyancy offset centered at the disc, and $\theta$ is the inclination angle between the disc's plane and the horizontal plane. In the body centered coordinate system, $z$ is the axis of rotation of the disc, and $y$ normal to the disc plain and completing the right-hand rule. Assuming a cylindrical disc of thickness $t$ and diameter $D$, the integration yields
+
+\begin{equation}
+	x_B = - \frac{ |\gamma| D^2 }{ 16 \rho_0 } \sin( \theta ).
+  \label{eq:xbeq}
+\end{equation}
+\\
+The torque due to the buoyancy offset for a pure inclination rotation is then
+
+\begin{eqnarray}
+	\tau_B & = & \rho_0 g V x_B \cos( \theta ) \nonumber\\
+	            & = & - \frac{1}{16} g V D^2 | {\gamma}| \sin(\theta) \cos(\theta).
+  \label{eq:torqueeq}
+\end{eqnarray}
+\\
+Similarly, the angular acceleration due to buoyancy for a pure inclination rotation for a homogenous solid disc of density $\rho_{disc}$ is found to be
+
+\begin{eqnarray}
+	\ddot{\theta}     & = & - \frac{\rho_0 N^2 V D^2}{16I}  \sin(\theta) \cos(\theta) \nonumber\\
+	                         & = & -\frac{\rho_0}{2\rho} N^{2} sin\left(2\theta\right)
+  \label{eq:angularaccel}
+\end{eqnarray}
+\\where $\rho_0$ is the density of the fluid at the disc's center, $\rho$ is the density of the disc, $N$ is the Brunt-V{\"a}is{\"a}l{\"a} frequency, and $\theta$ is the inclination or nutation angle. 
+
+
+
+
+
+
+
+% ============================================================================================================
+\bibliographystyle{jfm}
+% Note the spaces between the initials
+\bibliography{biblio_lam}
+
+\end{document}
+% ============================================================================================================
+
