@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 FEB 2017 01:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 MAR 2017 01:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -200,18 +200,18 @@ LaTeX Info: Redefining \cite on input line 508.
 ) (./JFM_Lam_draft_Feb2017.aux)
 \openout1 = `JFM_Lam_draft_Feb2017.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -227,11 +227,11 @@ LaTeX Font Info:    ... okay on input line 35.
 \makeMPintoPDFobject=\count99
 \everyMPtoPDFconversion=\toks18
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -248,86 +248,63 @@ Non-PDF special ignored!]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-<figure/descent_in_tank_with_landing_distribution.pdf, id=22, 920.43875pt x 450
-.68375pt>
-File: figure/descent_in_tank_with_landing_distribution.pdf Graphic file (type p
-df)
- <use figure/descent_in_tank_with_landing_distribution.pdf>
-Package pdftex.def Info: figure/descent_in_tank_with_landing_distribution.pdf u
-sed on input line 84.
+<figure/figure1.pdf, id=22, 920.43875pt x 450.68375pt>
+File: figure/figure1.pdf Graphic file (type pdf)
+
+<use figure/figure1.pdf>
+Package pdftex.def Info: figure/figure1.pdf used on input line 88.
 (pdftex.def)             Requested size: 384.0pt x 188.0274pt.
 Missing character: There is no   in font cmr9!
  [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
- [4 <./figure/descent_in_tank_with_landing_distribution.pdf>]
-<figure/coin_tanks.pdf, id=48, 879.285pt x 504.88625pt>
-File: figure/coin_tanks.pdf Graphic file (type pdf)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
+ [4 <./figure/figure1.pdf>] <figure/figure2.pdf, id=48, 794.97pt x 456.70625pt>
+File: figure/figure2.pdf Graphic file (type pdf)
 
-<use figure/coin_tanks.pdf>
-Package pdftex.def Info: figure/coin_tanks.pdf used on input line 124.
-(pdftex.def)             Requested size: 384.0pt x 220.48657pt.
- [5 <./figure/coin_tanks.pdf>]
-<figure/landing_dist_xy.pdf, id=113, 846.16125pt x 401.5pt>
-File: figure/landing_dist_xy.pdf Graphic file (type pdf)
+<use figure/figure2.pdf>
+Package pdftex.def Info: figure/figure2.pdf used on input line 126.
+(pdftex.def)             Requested size: 384.0pt x 220.61026pt.
+ [5 <./figure/figure2.pdf>]
+<figure/figure3.pdf, id=113, 798.985pt x 732.7375pt>
+File: figure/figure3.pdf Graphic file (type pdf)
+ <use figure/figure3.pdf>
+Package pdftex.def Info: figure/figure3.pdf used on input line 147.
+(pdftex.def)             Requested size: 384.0pt x 352.15723pt.
 
-<use figure/landing_dist_xy.pdf>
-Package pdftex.def Info: figure/landing_dist_xy.pdf used on input line 146.
-(pdftex.def)             Requested size: 384.0pt x 182.20493pt.
+[6] [7 <./figure/figure3.pdf>]
+<figure/figure4.pdf, id=1283, 511.2699pt x 179.657pt>
+File: figure/figure4.pdf Graphic file (type pdf)
+ <use figure/figure4.pdf>
+Package pdftex.def Info: figure/figure4.pdf used on input line 191.
+(pdftex.def)             Requested size: 384.0pt x 134.93979pt.
 
-<figure/landing_dis_radial.pdf, id=114, 798.985pt x 416.55624pt>
-File: figure/landing_dis_radial.pdf Graphic file (type pdf)
+Underfull \vbox (badness 7722) has occurred while \output is active []
 
-<use figure/landing_dis_radial.pdf>
-Package pdftex.def Info: figure/landing_dis_radial.pdf used on input line 152.
-(pdftex.def)             Requested size: 384.0pt x 200.19896pt.
+ [8 <./figure/figure4.pdf>] <figure/figure5.pdf, id=1300, 545.6808pt x 254.5948
+6pt>
+File: figure/figure5.pdf Graphic file (type pdf)
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use figure/figure5.pdf>
+Package pdftex.def Info: figure/figure5.pdf used on input line 216.
+(pdftex.def)             Requested size: 384.0pt x 179.16696pt.
+ [9 <./figure/figure5.pdf>]
+<figure/figure6.pdf, id=1317, 572.61781pt x 335.69987pt>
+File: figure/figure6.pdf Graphic file (type pdf)
 
- [6 <./figure/landing_dist_xy.pdf>]
-<figure/zzdot.pdf, id=1250, 787.94376pt x 398.48875pt>
-File: figure/zzdot.pdf Graphic file (type pdf)
- <use figure/zzdot.pdf>
-Package pdftex.def Info: figure/zzdot.pdf used on input line 185.
-(pdftex.def)             Requested size: 384.0pt x 194.19711pt.
-
-<figure/all_avgZdot_and_avgThetaMax_vs_Z.pdf, id=1251, 787.94376pt x 398.48875p
-t>
-File: figure/all_avgZdot_and_avgThetaMax_vs_Z.pdf Graphic file (type pdf)
- <use figure/all_avgZdot_and_avgThetaMax_vs_Z.pdf>
-Package pdftex.def Info: figure/all_avgZdot_and_avgThetaMax_vs_Z.pdf used on in
-put line 193.
-(pdftex.def)             Requested size: 384.0pt x 194.19711pt.
- [7 <./figure/landing_dis_radial.pdf>] [8 <./figure/zzdot.pdf> <./figure/all_av
-gZdot_and_avgThetaMax_vs_Z.pdf>]
-Underfull \hbox (badness 1502) in paragraph at lines 211--212
-[]\OT1/cmr/m/n/10 We also note that the $\OML/cmm/m/it/10 C[]$ \OT1/cmr/m/n/10 
-for strat-i-fied flow is larger than that of wa-ter,
- []
-
-<figure/thetadthetaphase2.pdf, id=1337, 722.7pt x 342.27875pt>
-File: figure/thetadthetaphase2.pdf Graphic file (type pdf)
-
-<use figure/thetadthetaphase2.pdf>
-Package pdftex.def Info: figure/thetadthetaphase2.pdf used on input line 224.
-(pdftex.def)             Requested size: 384.0pt x 181.86646pt.
- [9]
-<figure/reconstructed_summary.pdf, id=1341, 653.44125pt x 472.76625pt>
-File: figure/reconstructed_summary.pdf Graphic file (type pdf)
-
-<use figure/reconstructed_summary.pdf>
-Package pdftex.def Info: figure/reconstructed_summary.pdf used on input line 25
-2.
-(pdftex.def)             Requested size: 384.0pt x 277.81874pt.
- [10 <./figure/thetadthetaphase2.pdf>]
-[11 <./figure/reconstructed_summary.pdf>] (./JFM_Lam_draft_Feb2017.bbl [12]
+<use figure/figure6.pdf>
+Package pdftex.def Info: figure/figure6.pdf used on input line 245.
+(pdftex.def)             Requested size: 384.0pt x 225.12776pt.
+ [10 <./figure/figure6.pdf>] [11]
+(./JFM_Lam_draft_Feb2017.bbl
 Missing character: There is no Å in font cmcsc10!
 Missing character: There is no ¡ in font cmcsc10!
+ [12]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no œ in font cmr9!
@@ -340,38 +317,39 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [13])
 [14] (./JFM_Lam_draft_Feb2017.aux) ) 
 Here is how much of TeX's memory you used:
- 3380 strings out of 493014
- 43058 string characters out of 6133351
- 115287 words of memory out of 5000000
- 6862 multiletter control sequences out of 15000+600000
+ 3370 strings out of 493014
+ 42337 string characters out of 6133351
+ 114373 words of memory out of 5000000
+ 6854 multiletter control sequences out of 15000+600000
  14689 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,35p,2273b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,13n,35p,2273b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
->
-Output written on JFM_Lam_draft_Feb2017.pdf (14 pages, 2451260 bytes).
+public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.
+pfb>
+Output written on JFM_Lam_draft_Feb2017.pdf (14 pages, 1899184 bytes).
 PDF statistics:
- 1484 PDF objects out of 1728 (max. 8388607)
- 824 compressed objects within 9 object streams
+ 1410 PDF objects out of 1440 (max. 8388607)
+ 771 compressed objects within 8 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
