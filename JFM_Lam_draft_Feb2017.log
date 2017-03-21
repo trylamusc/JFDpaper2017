@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAR 2017 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 MAR 2017 13:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -244,65 +244,71 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-Non-PDF special ignored!]
+Non-PDF special ignored!] [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
-<figure/figure1.pdf, id=22, 920.43875pt x 450.68375pt>
-File: figure/figure1.pdf Graphic file (type pdf)
-
-<use figure/figure1.pdf>
-Package pdftex.def Info: figure/figure1.pdf used on input line 88.
-(pdftex.def)             Requested size: 384.0pt x 188.0274pt.
-Missing character: There is no   in font cmr9!
  [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
-
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 90.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
- [4 <./figure/figure1.pdf>] <figure/figure2.pdf, id=48, 794.97pt x 456.70625pt>
-File: figure/figure2.pdf Graphic file (type pdf)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
 
-<use figure/figure2.pdf>
-Package pdftex.def Info: figure/figure2.pdf used on input line 126.
+<figure/figure2.pdf, id=25, 794.97pt x 456.70625pt>
+File: figure/figure2.pdf Graphic file (type pdf)
+ <use figure/figure2.pdf>
+Package pdftex.def Info: figure/figure2.pdf used on input line 113.
 (pdftex.def)             Requested size: 384.0pt x 220.61026pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+<figure/figure1.pdf, id=29, 920.43875pt x 450.68375pt>
+File: figure/figure1.pdf Graphic file (type pdf)
+
+<use figure/figure1.pdf>
+Package pdftex.def Info: figure/figure1.pdf used on input line 121.
+(pdftex.def)             Requested size: 384.0pt x 188.0274pt.
+Missing character: There is no   in font cmr9!
  [5 <./figure/figure2.pdf>]
-<figure/figure3.pdf, id=113, 798.985pt x 732.7375pt>
+<figure/figure3.pdf, id=95, 798.985pt x 732.7375pt>
 File: figure/figure3.pdf Graphic file (type pdf)
  <use figure/figure3.pdf>
-Package pdftex.def Info: figure/figure3.pdf used on input line 147.
+Package pdftex.def Info: figure/figure3.pdf used on input line 140.
 (pdftex.def)             Requested size: 384.0pt x 352.15723pt.
 
-[6] [7 <./figure/figure3.pdf>]
-<figure/figure4.pdf, id=1283, 511.2699pt x 179.657pt>
+[6 <./figure/figure1.pdf>]
+Underfull \vbox (badness 2809) has occurred while \output is active []
+
+ [7 <./figure/figure3.pdf>] <figure/figure4.pdf, id=1283, 511.2699pt x 179.657p
+t>
 File: figure/figure4.pdf Graphic file (type pdf)
- <use figure/figure4.pdf>
-Package pdftex.def Info: figure/figure4.pdf used on input line 191.
+
+<use figure/figure4.pdf>
+Package pdftex.def Info: figure/figure4.pdf used on input line 184.
 (pdftex.def)             Requested size: 384.0pt x 134.93979pt.
 
-[8 <./figure/figure4.pdf>]
-<figure/figure5.pdf, id=1300, 545.6808pt x 254.59486pt>
+<figure/figure5.pdf, id=1284, 545.6808pt x 254.59486pt>
 File: figure/figure5.pdf Graphic file (type pdf)
 
 <use figure/figure5.pdf>
-Package pdftex.def Info: figure/figure5.pdf used on input line 216.
+Package pdftex.def Info: figure/figure5.pdf used on input line 209.
 (pdftex.def)             Requested size: 384.0pt x 179.16696pt.
- [9 <./figure/figure5.pdf>]
+ [8] [9 <./figure/figure4.pdf> <./figure/figure5.pdf>]
 <figure/figure6.pdf, id=1317, 572.61781pt x 335.69987pt>
 File: figure/figure6.pdf Graphic file (type pdf)
 
 <use figure/figure6.pdf>
-Package pdftex.def Info: figure/figure6.pdf used on input line 245.
+Package pdftex.def Info: figure/figure6.pdf used on input line 238.
 (pdftex.def)             Requested size: 384.0pt x 225.12776pt.
- [10 <./figure/figure6.pdf>] [11]
-(./JFM_Lam_draft_Feb2017.bbl
+ [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./figure/figure6.pdf>] (./JFM_Lam_draft_Feb2017.bbl [12]
 Missing character: There is no Å in font cmcsc10!
 Missing character: There is no ¡ in font cmcsc10!
- [12]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no œ in font cmr9!
@@ -317,11 +323,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Here is how much of TeX's memory you used:
  3370 strings out of 493014
  42337 string characters out of 6133351
- 114374 words of memory out of 5000000
+ 116375 words of memory out of 5000000
  6854 multiletter control sequences out of 15000+600000
  14689 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,35p,2273b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,13n,35p,2313b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
@@ -344,7 +350,7 @@ msy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.
 pfb>
-Output written on JFM_Lam_draft_Feb2017.pdf (14 pages, 1899198 bytes).
+Output written on JFM_Lam_draft_Feb2017.pdf (14 pages, 1897677 bytes).
 PDF statistics:
  1410 PDF objects out of 1440 (max. 8388607)
  771 compressed objects within 8 object streams
