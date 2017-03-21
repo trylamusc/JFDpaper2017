@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 MAR 2017 01:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAR 2017 14:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -284,10 +284,8 @@ File: figure/figure4.pdf Graphic file (type pdf)
 Package pdftex.def Info: figure/figure4.pdf used on input line 191.
 (pdftex.def)             Requested size: 384.0pt x 134.93979pt.
 
-Underfull \vbox (badness 7722) has occurred while \output is active []
-
- [8 <./figure/figure4.pdf>] <figure/figure5.pdf, id=1300, 545.6808pt x 254.5948
-6pt>
+[8 <./figure/figure4.pdf>]
+<figure/figure5.pdf, id=1300, 545.6808pt x 254.59486pt>
 File: figure/figure5.pdf Graphic file (type pdf)
 
 <use figure/figure5.pdf>
@@ -319,7 +317,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Here is how much of TeX's memory you used:
  3370 strings out of 493014
  42337 string characters out of 6133351
- 114373 words of memory out of 5000000
+ 114374 words of memory out of 5000000
  6854 multiletter control sequences out of 15000+600000
  14689 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -346,7 +344,7 @@ msy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.
 pfb>
-Output written on JFM_Lam_draft_Feb2017.pdf (14 pages, 1899184 bytes).
+Output written on JFM_Lam_draft_Feb2017.pdf (14 pages, 1899198 bytes).
 PDF statistics:
  1410 PDF objects out of 1440 (max. 8388607)
  771 compressed objects within 8 object streams
