@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 JUN 2017 01:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 JUN 2017 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -284,7 +284,7 @@ Package pdftex.def Info: figure/figure3.pdf used on input line 140.
 File: figure/figure4.pdf Graphic file (type pdf)
 
 <use figure/figure4.pdf>
-Package pdftex.def Info: figure/figure4.pdf used on input line 167.
+Package pdftex.def Info: figure/figure4.pdf used on input line 166.
 (pdftex.def)             Requested size: 384.0pt x 300.67395pt.
  [7 <./figure/figure3.pdf>]
 <figure/waterCase08_stratCase10_Combined_v2.pdf, id=1284, 1281.78876pt x 829.09
@@ -292,21 +292,21 @@ Package pdftex.def Info: figure/figure4.pdf used on input line 167.
 File: figure/waterCase08_stratCase10_Combined_v2.pdf Graphic file (type pdf)
  <use figure/waterCase08_stratCase10_Combined_v2.pdf>
 Package pdftex.def Info: figure/waterCase08_stratCase10_Combined_v2.pdf used on
- input line 175.
+ input line 174.
 (pdftex.def)             Requested size: 384.0pt x 248.37694pt.
  [8 <./figure/figure4.pdf>] <figure/rnvsrnp1normalized.pdf, id=1302, 550.35017p
 t x 280.42767pt>
 File: figure/rnvsrnp1normalized.pdf Graphic file (type pdf)
 
 <use figure/rnvsrnp1normalized.pdf>
-Package pdftex.def Info: figure/rnvsrnp1normalized.pdf used on input line 189.
+Package pdftex.def Info: figure/rnvsrnp1normalized.pdf used on input line 188.
 (pdftex.def)             Requested size: 384.0pt x 195.66473pt.
 
 <figure/ArcLength_vs_z.pdf, id=1303, 565.9839pt x 277.15416pt>
 File: figure/ArcLength_vs_z.pdf Graphic file (type pdf)
 
 <use figure/ArcLength_vs_z.pdf>
-Package pdftex.def Info: figure/ArcLength_vs_z.pdf used on input line 197.
+Package pdftex.def Info: figure/ArcLength_vs_z.pdf used on input line 196.
 (pdftex.def)             Requested size: 384.0pt x 188.04366pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -318,14 +318,14 @@ pt>
 File: figure/zzdotcdzavgzdot3figtest_diffFont3.pdf Graphic file (type pdf)
  <use figure/zzdotcdzavgzdot3figtest_diffFont3.pdf>
 Package pdftex.def Info: figure/zzdotcdzavgzdot3figtest_diffFont3.pdf used on i
-nput line 223.
+nput line 222.
 (pdftex.def)             Requested size: 384.0pt x 360.26903pt.
  [11]
 <figure/figure6.pdf, id=1477, 545.6808pt x 254.59486pt>
 File: figure/figure6.pdf Graphic file (type pdf)
 
 <use figure/figure6.pdf>
-Package pdftex.def Info: figure/figure6.pdf used on input line 249.
+Package pdftex.def Info: figure/figure6.pdf used on input line 248.
 (pdftex.def)             Requested size: 384.0pt x 179.16696pt.
 
 Underfull \vbox (badness 1107) has occurred while \output is active []
@@ -336,7 +336,7 @@ f>]
 File: figure/figure7.pdf Graphic file (type pdf)
 
 <use figure/figure7.pdf>
-Package pdftex.def Info: figure/figure7.pdf used on input line 280.
+Package pdftex.def Info: figure/figure7.pdf used on input line 279.
 (pdftex.def)             Requested size: 384.0pt x 225.12776pt.
  [14 <./figure/figure7.pdf>] [15] (./JFM_Lam_draft.bbl
 Missing character: There is no Å in font cmcsc10!
@@ -381,7 +381,7 @@ fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.p
 fb>
-Output written on JFM_Lam_draft.pdf (17 pages, 2534780 bytes).
+Output written on JFM_Lam_draft.pdf (17 pages, 2534701 bytes).
 PDF statistics:
  1608 PDF objects out of 1728 (max. 8388607)
  914 compressed objects within 10 object streams
