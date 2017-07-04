@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 JUN 2017 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 JUL 2017 22:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -248,97 +248,91 @@ Non-PDF special ignored!] [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 90.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 93.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
 
 <figure/figure2.pdf, id=25, 794.97pt x 456.70625pt>
 File: figure/figure2.pdf Graphic file (type pdf)
  <use figure/figure2.pdf>
-Package pdftex.def Info: figure/figure2.pdf used on input line 113.
+Package pdftex.def Info: figure/figure2.pdf used on input line 116.
 (pdftex.def)             Requested size: 384.0pt x 220.61026pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-<figure/figure1.pdf, id=29, 920.43875pt x 450.68375pt>
+[4] <figure/figure1.pdf, id=32, 920.43875pt x 450.68375pt>
 File: figure/figure1.pdf Graphic file (type pdf)
 
 <use figure/figure1.pdf>
-Package pdftex.def Info: figure/figure1.pdf used on input line 121.
+Package pdftex.def Info: figure/figure1.pdf used on input line 124.
 (pdftex.def)             Requested size: 384.0pt x 188.0274pt.
 Missing character: There is no † in font cmr9!
  [5 <./figure/figure2.pdf>]
 <figure/figure3.pdf, id=95, 798.985pt x 732.7375pt>
 File: figure/figure3.pdf Graphic file (type pdf)
  <use figure/figure3.pdf>
-Package pdftex.def Info: figure/figure3.pdf used on input line 140.
+Package pdftex.def Info: figure/figure3.pdf used on input line 143.
 (pdftex.def)             Requested size: 384.0pt x 352.15723pt.
 
 [6 <./figure/figure1.pdf>]
-<figure/figure4.pdf, id=117, 602.7077pt x 471.90865pt>
+<figure/figure4.pdf, id=119, 602.7077pt x 471.90865pt>
 File: figure/figure4.pdf Graphic file (type pdf)
 
 <use figure/figure4.pdf>
-Package pdftex.def Info: figure/figure4.pdf used on input line 166.
+Package pdftex.def Info: figure/figure4.pdf used on input line 169.
 (pdftex.def)             Requested size: 384.0pt x 300.67395pt.
  [7 <./figure/figure3.pdf>]
-<figure/waterCase08_stratCase10_Combined_v2.pdf, id=1284, 1281.78876pt x 829.09
-75pt>
-File: figure/waterCase08_stratCase10_Combined_v2.pdf Graphic file (type pdf)
- <use figure/waterCase08_stratCase10_Combined_v2.pdf>
-Package pdftex.def Info: figure/waterCase08_stratCase10_Combined_v2.pdf used on
- input line 174.
-(pdftex.def)             Requested size: 384.0pt x 248.37694pt.
+<figure/waterCase08_stratCase10_Combined_v3.pdf, id=1284, 717.68124pt x 463.732
+5pt>
+File: figure/waterCase08_stratCase10_Combined_v3.pdf Graphic file (type pdf)
+ <use figure/waterCase08_stratCase10_Combined_v3.pdf>
+Package pdftex.def Info: figure/waterCase08_stratCase10_Combined_v3.pdf used on
+ input line 177.
+(pdftex.def)             Requested size: 384.0pt x 248.12627pt.
  [8 <./figure/figure4.pdf>] <figure/rnvsrnp1normalized.pdf, id=1302, 550.35017p
 t x 280.42767pt>
 File: figure/rnvsrnp1normalized.pdf Graphic file (type pdf)
 
 <use figure/rnvsrnp1normalized.pdf>
-Package pdftex.def Info: figure/rnvsrnp1normalized.pdf used on input line 188.
+Package pdftex.def Info: figure/rnvsrnp1normalized.pdf used on input line 191.
 (pdftex.def)             Requested size: 384.0pt x 195.66473pt.
 
 <figure/ArcLength_vs_z.pdf, id=1303, 565.9839pt x 277.15416pt>
 File: figure/ArcLength_vs_z.pdf Graphic file (type pdf)
 
 <use figure/ArcLength_vs_z.pdf>
-Package pdftex.def Info: figure/ArcLength_vs_z.pdf used on input line 196.
+Package pdftex.def Info: figure/ArcLength_vs_z.pdf used on input line 199.
 (pdftex.def)             Requested size: 384.0pt x 188.04366pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9 <./figure/waterCase08_stratCase10_Combined_v2.pdf>] [10 <./figure/rnvsrnp1n
+ [9 <./figure/waterCase08_stratCase10_Combined_v3.pdf>] [10 <./figure/rnvsrnp1n
 ormalized.pdf> <./figure/ArcLength_vs_z.pdf>]
 <figure/zzdotcdzavgzdot3figtest_diffFont3.pdf, id=1472, 559.49983pt x 524.90274
 pt>
 File: figure/zzdotcdzavgzdot3figtest_diffFont3.pdf Graphic file (type pdf)
  <use figure/zzdotcdzavgzdot3figtest_diffFont3.pdf>
 Package pdftex.def Info: figure/zzdotcdzavgzdot3figtest_diffFont3.pdf used on i
-nput line 222.
+nput line 225.
 (pdftex.def)             Requested size: 384.0pt x 360.26903pt.
- [11]
-<figure/figure6.pdf, id=1477, 545.6808pt x 254.59486pt>
+
+<figure/figure6.pdf, id=1473, 545.6808pt x 254.59486pt>
 File: figure/figure6.pdf Graphic file (type pdf)
 
 <use figure/figure6.pdf>
-Package pdftex.def Info: figure/figure6.pdf used on input line 248.
+Package pdftex.def Info: figure/figure6.pdf used on input line 251.
 (pdftex.def)             Requested size: 384.0pt x 179.16696pt.
+ [11]
+Underfull \vbox (badness 1874) has occurred while \output is active []
 
-Underfull \vbox (badness 1107) has occurred while \output is active []
-
- [12 <./figure/zzdotcdzavgzdot3figtest_diffFont3.pdf>] [13 <./figure/figure6.pd
-f>]
-<figure/figure7.pdf, id=1513, 572.61781pt x 335.69987pt>
+ [12 <./figure/zzdotcdzavgzdot3figtest_diffFont3.pdf>]
+<figure/figure7.pdf, id=1494, 572.61781pt x 335.69987pt>
 File: figure/figure7.pdf Graphic file (type pdf)
 
 <use figure/figure7.pdf>
-Package pdftex.def Info: figure/figure7.pdf used on input line 279.
+Package pdftex.def Info: figure/figure7.pdf used on input line 282.
 (pdftex.def)             Requested size: 384.0pt x 225.12776pt.
- [14 <./figure/figure7.pdf>] [15] (./JFM_Lam_draft.bbl
+ [13 <./figure/figure6.pdf>] [14 <./figure/figure7.pdf>] [15] (./JFM_Lam_draft.
+bbl
 Missing character: There is no ≈ in font cmcsc10!
 Missing character: There is no ° in font cmcsc10!
 Missing character: There is no ‚ in font cmr9!
@@ -347,44 +341,43 @@ Missing character: There is no ú in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ù in font cmr9!
-
-[16]) [17] (./JFM_Lam_draft.aux) ) 
+ [16]) [17] (./JFM_Lam_draft.aux) ) 
 Here is how much of TeX's memory you used:
- 3395 strings out of 493014
- 43112 string characters out of 6133351
- 116420 words of memory out of 5000000
- 6875 multiletter control sequences out of 15000+600000
+ 3397 strings out of 493014
+ 43157 string characters out of 6133351
+ 115484 words of memory out of 5000000
+ 6877 multiletter control sequences out of 15000+600000
  14689 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,13n,35p,2305b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.p
-fb>
-Output written on JFM_Lam_draft.pdf (17 pages, 2534701 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
+pfb>
+Output written on JFM_Lam_draft.pdf (17 pages, 2523644 bytes).
 PDF statistics:
  1608 PDF objects out of 1728 (max. 8388607)
- 914 compressed objects within 10 object streams
+ 913 compressed objects within 10 object streams
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
